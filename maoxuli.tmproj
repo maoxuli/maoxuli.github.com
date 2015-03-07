@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>README.md</string>
+	<string>CNAME</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -16,13 +16,27 @@
 			<key>filename</key>
 			<string>CNAME</string>
 			<key>lastUsed</key>
-			<date>2015-03-06T21:17:43Z</date>
+			<date>2015-03-07T20:11:33Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>README.md</string>
 			<key>lastUsed</key>
-			<date>2015-03-06T21:25:29Z</date>
+			<date>2015-03-07T20:11:33Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>style.css</string>
+			<key>lastUsed</key>
+			<date>2015-03-06T21:39:09Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>index.html</string>
+			<key>lastUsed</key>
+			<date>2015-03-06T21:41:14Z</date>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -31,8 +45,6 @@
 			<string>portfolio</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
-			<key>selected</key>
-			<true/>
 			<key>sourceDirectory</key>
 			<string>portfolio</string>
 		</dict>
@@ -60,7 +72,7 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>11</integer>
+				<integer>7</integer>
 				<key>line</key>
 				<integer>0</integer>
 			</dict>
@@ -83,16 +95,92 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>57</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>57</integer>
+				<key>line</key>
+				<integer>8</integer>
+			</dict>
+		</dict>
+		<key>portfolio/index.html</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>19</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>portfolio/style.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>35</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>style.css</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>35</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>.gitignore</string>
 		<string>CNAME</string>
 		<string>README.md</string>
+		<string>index.html</string>
+		<string>portfolio/index.html</string>
+		<string>style.css</string>
+		<string>portfolio/style.css</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{243, 61}, {1070, 698}}</string>
+	<string>{{210, 68}, {1070, 698}}</string>
 </dict>
 </plist>
