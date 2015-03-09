@@ -25,11 +25,170 @@
 */
 
 body {
+	margin:0;
+	padding:0;
 	font-family:Helvetica, Arial, sans-serif;
 	text-align:center; /* Necessary for IE 6,7,8 */
 }
 
 p {
-	margin-top: 10em;
+	font-weight:lighter;
+	line-height:150%;
+}
+
+h1 {
 	font-size:1.5em;
 }
+
+h2 {
+	font-size:1.375em;
+}
+
+h3 {
+	font-size:1.25em;
+}
+	
+h4 {
+	font-size:1.125em;
+}
+
+a img {
+	border:none; /* necessary for IE 6-10 */
+}
+
+a:link {
+	color: #666;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #666;
+	text-decoration: underline;
+}
+
+a:hover, 
+a:active {
+	color: orange;
+	text-decoration: underline;
+}
+
+ul li {
+	list-style-image: url('images/li_yellow.png');
+}
+
+#header {
+	padding-top:1em;
+	padding-bottom:34px; /* the height of background image */
+	background-image: url('images/border.gif');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#footer {
+	padding-bottom:1em;
+	border-top:1px solid #aaa;
+}
+
+.container {
+	margin:0 auto;
+	width:900px;
+	font-size:100%;
+	text-align:left;
+	overflow:hidden; /* Necessary for background-position in header for IE 11 */
+}
+
+/* 900 and less */
+@media screen and (max-width: 900px) {
+  .container {
+	width:auto;
+    font-size: 100%;
+  }
+}
+
+/* 720 and less */
+@media screen and (max-width: 720px) {
+  .container {
+    font-size: 87.5%;
+  }
+}
+
+/* 640 and less */
+@media screen and (max-width: 640px) {
+  .container {
+    font-size: 75%;
+  }
+}
+
+/* 480 and less*/
+@media screen and (max-width: 480px) {
+  .container {
+    font-size: 50%;
+  }
+}
+
+#header .title {
+	width: 180px;
+	padding-bottom:0.5em;
+	text-align: right;
+}
+
+#header h1 {
+	margin:0;
+	padding:0;
+	line-height:150%;
+	font-size:2.25em;
+	font-weight:lighter;
+}
+
+#header h1 span {
+	font-weight:bold;
+}
+
+#header p {
+	margin:0;
+	padding:0;
+}
+
+#main .container {
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+table.section {
+	width: 100%;
+	margin-bottom: 1.5em;
+}
+
+table.section td {
+	vertical-align: top;
+}
+
+table.section td p {
+	margin:0;
+	padding:0;
+}
+
+table.section td.pic img {
+	width: 100%;
+}
+
+table.section td.pic {
+	border: 1px solid #BEBEBE;
+	padding: 10px;
+	width: 158px;
+	text-align: center;
+}
+
+table.section td.text {
+	padding-left: 1.5em;
+	padding-right: 1em;
+}
+
+table.section td.side {
+	width: 8em;
+	padding-left: 1em;
+	border-left: 1px solid #BEBEBE;
+	font-size: 0.875em;
+}
+
+
