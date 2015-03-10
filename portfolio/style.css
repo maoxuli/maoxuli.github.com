@@ -76,6 +76,26 @@ ul li {
 	list-style-image: url('images/li_yellow.png');
 }
 
+.highlight {
+	color: orange;
+}
+
+a.highlight:link {
+	color: orange;
+	text-decoration: none;
+}
+
+a.highlight:visited {
+	color: orange;
+	text-decoration: none;
+}
+
+a.highlight:hover, 
+a.highlight:active {
+	color: orange;
+	text-decoration: underline;
+}
+
 #header {
 	padding-top:1em;
 	padding-bottom:34px; /* the height of background image */
@@ -159,10 +179,6 @@ table.section {
 	margin-bottom: 1.5em;
 }
 
-table.section td {
-	vertical-align: top;
-}
-
 table.section td p {
 	margin:0;
 	padding:0;
@@ -174,21 +190,24 @@ table.section td.pic img {
 
 table.section td.pic {
 	border: 1px solid #BEBEBE;
-	padding: 10px;
-	width: 158px;
+	padding: 0;
+	width: 178px;
 	text-align: center;
+	vertical-align: center;
 }
 
 table.section td.text {
 	padding-left: 1.5em;
 	padding-right: 1em;
+	vertical-align: top;
 }
 
 table.section td.side {
-	width: 8em;
+	width: 12em;
 	padding-left: 1em;
 	border-left: 1px solid #BEBEBE;
-	font-size: 0.875em;
+	font-size: 0.8125em;
+	vertical-align: top;
 }
 
 
