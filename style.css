@@ -101,7 +101,7 @@ a:visited {
 #name h1 {
 	font-family: 'Miss Fajardose', cursive;
 	font-weight: 800;
-	font-size: 2.6em;
+	font-size: 2.8em;
 }
 
 #life p, 
@@ -112,7 +112,7 @@ a:visited {
 /* 640 and less*/
 @media screen and (max-width: 640px) {
 	#name h1 {
-		font-size: 1.1em;
+		font-size: 1.2em;
   	}
 
 	#life p,
