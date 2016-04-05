@@ -100,7 +100,8 @@ a:visited {
 
 #name h1 {
 	font-family: 'Miss Fajardose', cursive;
-	font-size: 2.8em;
+	font-weight: 300;
+	font-size: 2.6em;
 }
 
 #life p, 
