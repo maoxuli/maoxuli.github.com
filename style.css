@@ -77,6 +77,15 @@ a:visited {
 	height: 38%;
 }
 
+#entries table {
+	height: 100%;
+	width: 100%;
+}
+
+#entries table tr td {
+	vertical-align: center;
+}
+
 #entries #name {
 	background-color: #B1D3EC;
 }
