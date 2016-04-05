@@ -24,12 +24,90 @@
 
 */
 
-body {
-	font-family:Helvetica, Arial, sans-serif;
-	text-align:center; /* Necessary for IE 6,7,8 */
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
-p {
-	margin-top: 10em;
-	font-size:1.5em;
+body {
+	background: #fff;
+	font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; 
+	text-align: center; /* Necessary for IE 6,7,8 */
 }
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#container {
+	height: 70%;
+	width: 75%;
+	margin: 0 auto ;
+	overflow: hidden;
+}
+
+#left, 
+#entries, 
+#right {
+	height: 100%;
+	width: 33.3%;
+	float: left;
+	overflow: hidden;
+}
+
+#entries #name, 
+#entries #life, 
+#entries #work {
+	width: 100%;
+	overflow: hidden;
+}
+
+#entries #name {
+	height: 24%;
+}
+
+#entries #life, 
+#entries #work {
+	height: 38%;
+}
+
+#entries #name {
+	background-color: #B1D3EC;
+}
+
+#entries #life {
+	background-color: #CCFFBF;
+}
+
+#entries #work {
+	background-color: #FFF9BF;
+}
+
+#name h1 {
+	font-family: 'Miss Fajardose', cursive;
+	font-size: 2.8em;
+}
+
+#life p, 
+#work p {
+	font-style: italic;
+}
+
+/* 640 and less*/
+@media screen and (max-width: 640px) {
+	#name h1 {
+		font-size: 1.1em;
+  	}
+
+	#life p,
+	#work p {
+		font-size: 0.8em;
+	}
+}
+

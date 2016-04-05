@@ -1,6 +1,6 @@
-Homepage for Maoxu Li
-=====================
+Homepage for Li, Maoxu
+======================
 
-Maoxu Li  
-maoxu@maoxuli.com  
-[http://maoxuli.com](http://maoxuli.com)  
+Li, Maoxu  
+maoxu@limaoxu.com  
+[http://limaoxu.com](http://limaoxu.com)  

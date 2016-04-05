@@ -3,38 +3,46 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>portfolio/index.html</string>
+	<string>index.html</string>
 	<key>documents</key>
 	<array>
 		<dict>
 			<key>filename</key>
+			<string>.htaccess</string>
+			<key>lastUsed</key>
+			<date>2015-11-13T02:06:10Z</date>
+		</dict>
+		<dict>
+			<key>filename</key>
 			<string>.gitignore</string>
 			<key>lastUsed</key>
-			<date>2015-03-06T21:17:41Z</date>
+			<date>2015-11-13T02:05:00Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>CNAME</string>
 			<key>lastUsed</key>
-			<date>2015-03-09T07:14:02Z</date>
+			<date>2015-11-13T02:02:19Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>README.md</string>
 			<key>lastUsed</key>
-			<date>2015-03-07T20:11:33Z</date>
+			<date>2015-11-13T02:02:08Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>style.css</string>
 			<key>lastUsed</key>
-			<date>2015-03-09T17:33:33Z</date>
+			<date>2016-04-05T15:53:17Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>index.html</string>
 			<key>lastUsed</key>
-			<date>2015-03-09T17:33:17Z</date>
+			<date>2016-04-05T15:53:17Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>expanded</key>
@@ -56,9 +64,23 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>9</integer>
+				<integer>0</integer>
 				<key>line</key>
 				<integer>0</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>.htaccess</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>7</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -84,9 +106,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>35</integer>
 				<key>line</key>
-				<integer>6</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -98,14 +120,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>13</integer>
+				<integer>104</integer>
 				<key>line</key>
-				<integer>16</integer>
+				<integer>11</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>7</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>104</integer>
+				<key>line</key>
+				<integer>11</integer>
+			</dict>
 		</dict>
 		<key>portfolio/index.html</key>
 		<dict>
@@ -119,7 +157,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>75</integer>
+			<integer>0</integer>
 		</dict>
 		<key>portfolio/style.css</key>
 		<dict>
@@ -140,19 +178,20 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>21</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>19</integer>
+				<integer>61</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>43</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
 		<string>.gitignore</string>
+		<string>.htaccess</string>
 		<string>CNAME</string>
 		<string>README.md</string>
 		<string>index.html</string>
@@ -163,6 +202,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{210, 68}, {1070, 698}}</string>
+	<string>{{209, 18}, {1070, 698}}</string>
 </dict>
 </plist>
