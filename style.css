@@ -44,15 +44,15 @@ a:visited {
 }
 
 #container {
-	width: 906px;
+	width: 750px;
 	margin: 0 auto;
 }
 
 #drawing,
 #entries,
 #poem {
-	width: 300px;
-	height: 383px;
+	width: 250px;
+	height: 320px;
 	float: left;
 }
 
