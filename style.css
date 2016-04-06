@@ -24,17 +24,15 @@
 
 */
 
-html, body{
-	height: 100%;
-	width: 100%;
+html, body {
 	margin: 0;
-	padding: 0;
 }
 
 body {
 	background: #fff;
-	font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; 
 	text-align: center; /* Necessary for IE 6,7,8 */
+	font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif; 
+	font-size: 16px;
 }
 
 a:link,
@@ -46,26 +44,23 @@ a:visited {
 }
 
 #container {
-	height: 70%;
-	width: 75%;
-	margin: 0 auto ;
-	overflow: hidden;
+	width: 906px;
+	margin: 0 auto;
 }
 
-#left, 
-#entries, 
-#right {
-	height: 100%;
-	width: 33.3%;
+#drawing,
+#entries,
+#poem {
+	width: 300px;
+	height: 383px;
 	float: left;
-	overflow: hidden;
 }
 
-#entries #name, 
-#entries #life, 
-#entries #work {
-	width: 100%;
-	overflow: hidden;
+#entries {
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: center;
 }
 
 #entries #name {
@@ -75,15 +70,6 @@ a:visited {
 #entries #life, 
 #entries #work {
 	height: 38%;
-}
-
-#entries table {
-	height: 100%;
-	width: 100%;
-}
-
-#entries table tr td {
-	vertical-align: center;
 }
 
 #entries #name {
@@ -98,26 +84,17 @@ a:visited {
 	background-color: #FFF9BF;
 }
 
-#name h1 {
+#entries #name h1 {
+	margin: 0;
 	font-family: 'Miss Fajardose', cursive;
 	font-weight: 600;
 	font-size: 2.8em;
 }
 
-#life p, 
-#work p {
+#entries #life p, 
+#entries #work p {
 	font-style: italic;
+	line-height: 3em;
 }
 
-/* 640 and less*/
-@media screen and (max-width: 640px) {
-	#name h1 {
-		font-size: 1.4em;
-  	}
-
-	#life p,
-	#work p {
-		font-size: 0.8em;
-	}
-}
 
