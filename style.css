@@ -1,9 +1,6 @@
 
-html, body {
-	margin: 0;
-}
-
 body {
+	margin: 0;
 	background: #fff;
 	text-align: center; /* Necessary for IE 6,7,8 */
 	font-family: 'Times New Roman', Times, serif;
@@ -40,29 +37,23 @@ a:visited {
 
 #entries #name {
 	height: 24%;
-}
-
-#entries #life, 
-#entries #work {
-	height: 38%;
-}
-
-#entries #name {
 	background-color: #B1D3EC;
-}
-
-#entries #life {
-	background-color: #CCFFBF;
-}
-
-#entries #work {
-	background-color: #FFF9BF;
 }
 
 #entries #name h1 {
 	margin: 0;
 	font-family: 'Molle', cursive;
-	font-size: 30px;
+	font-size: 26px;
+}
+
+#entries #life {
+	height: 38%;
+	background-color: #CCFFBF;
+}
+
+#entries #work {
+	height: 38%;
+	background-color: #FFF9BF;
 }
 
 #entries #life p, 
@@ -70,5 +61,3 @@ a:visited {
 	font-style: italic;
 	line-height: 300%;
 }
-
-
