@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="icon" type="image/png" href="/favicon.png">
+	<link rel="stylesheet" type="text/css" href="../../style.css">
+	<title>Maoxu Li - Notes - C++ Wrapper of Socket</title>
+</head>
+<body>
+<div id="header">
+	<div class="container">
+		<div id="title">
+			<h1>MAOXU <span>LI</span></h1>
+			<p>Programmer</p>
+			<p>Software Engineer</p>
+			<p>Development Manager</p>
+		</div>
+		<ul>
+			<li><a href="../../">Home</a></li>
+			<li>Notes</li>
+			<li><a href="../../portfolio">Portfolio</a></li>
+		</ul>
+	</div>
+</div>
+<div id="main">
+	<div class="container">
+		<h1>C++ object-oriented wrapper of socket</h1>
+        <p>categories: Network Tags: Socket, Network</p>
+
+        <h2>Socket is difficult to wrap</h2>
+        <p>面向对象与面向过程的一个思维区别就是，面向对象围绕数据为中心，将应用抽象为互相关联的封装了数据以及对数据的操作的对象。而面向过程的编程以
+        操作为中心，将操作过程分割成为函数，并将应用逻辑抽象为函数调用流程。Socket编程接口本身是面向过程设计的，它使用非常有限的外部数据，
+        比如套接字句柄，地址，状态或错误，输入输出的数据。结果就是我们经常感觉面向对象化包装后的Socket不如直接使用方便和灵活.</p>
+        <h2>很薄的包装</h2>
+        <p>一个简单的包装只从数据封装角度解决一些问题。封装了数据和状态，跨平台一致性。如Socket, SocketAddress等，或者再进一步区分为TcpSocket, UdpSocket。
+        </p>
+
+        <h2>功能子集</h2>
+        两种套接字：TcpSocket, UdpSocket。
+        连接：TcpConnection
+        连接及连接后的：TcpServer, TcpClient, TcpConnection,
+        客户端和服务端的一致性：TcpTransceiver
+        命名：TcpAcceptor, TcpConnector, TcpTransceiver, UdpTransceiver
+
+        <h2>从地址开始</h2>
+        Endpoint, TcpEndpoint, UdpEndpoint
+        TcpTransceiver, UdpTransceiver
+
+        <h2>基类，派生的本质和目的</h2>
+        重用，接口
+        Socket是作为一个工具超级还是一个共同接口。
+        同样的是Endpoint,是否需要基类，Transceiver是否需要基类，
+        甚至考虑到将来的扩展，是否需要有Acceptor, Connector的基类。
+        
+        <h2>异步Socket封装</h2>
+        典型的设计模式：处理线程，事件处理接口对象，Socket对象
+        事件处理器与socket对象。继承，回调。
+
+        Socket基类来统一处理事件处理器接口问题。
+        事件处理器作为工具对象，通过回调连接。
+
+        根据需要设计。
+	</div>
+</div>
+<div id="footer">
+	<div class="container">
+		<p>Copyright 2000-2016 Maoxu Li.</p>
+	</div>
+</div>
+</body>
+</html>

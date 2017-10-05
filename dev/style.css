@@ -1,0 +1,163 @@
+body {
+	margin:0;
+	background:#fff;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:16px;
+	text-align:center; /* Necessary for IE 6,7,8 */
+}
+
+p {
+	font-weight:lighter;
+	line-height:150%;
+}
+
+a img {
+	border:none; /* necessary for IE 6-10 */
+}
+
+a:link,
+a:visited {
+	color: gray;
+	text-decoration: underline;
+}
+
+a:hover, 
+a:active {
+	color: orange;
+}
+
+ul li {
+	list-style-image: url('images/li_yellow.png');
+}
+
+.highlight {
+	color: orange;
+}
+
+a.highlight:link,
+a.highlight:visited {
+	color: orange;
+	text-decoration: none;
+}
+
+a.highlight:hover, 
+a.highlight:active {
+	text-decoration: underline;
+}
+
+.container {
+	width:900px;
+	margin:0 auto;
+	overflow:hidden; /* Necessary for background-position in header for IE 11 */
+}
+
+#header {
+	padding-top:16px;
+	padding-bottom:40px; /* more than the height of background image (34px) */
+	background-image: url('images/border.gif');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#header #title {
+	float:left;
+	width:180px;
+	padding-bottom:8px;
+	text-align:right;
+}
+
+#header h1 {
+	margin:0;
+	padding:0;
+	line-height:150%;
+	font-size:36px;
+	font-weight:lighter;
+}
+
+#header h1 span {
+	font-weight:bold;
+}
+
+#header p {
+	margin:0;
+	padding:0;
+}
+
+#header ul {
+	float:right;
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-top:107px;
+}
+
+#header ul li {
+	float:left;
+	list-style:none; /* necessary for some IE version */
+	margin:0 15px;
+	color: orange;
+}
+
+#header a:link, 
+#header a:visited {
+	text-decoration: none;
+}
+
+#header a:hover, 
+#header a:active {
+	text-decoration: underline;
+}
+
+#main .container {
+	padding-top: 16px;
+	padding-bottom: 32px;
+	text-align: left;
+}
+
+table.section {
+	width: 100%;
+	margin-bottom: 24px;
+}
+
+table.section td p {
+	margin:0;
+	padding:0;
+}
+
+table.section td.pic img {
+	width: 100%;
+}
+
+table.section td.pic {
+	border: 1px solid #BEBEBE;
+	padding: 0;
+	width: 178px;
+	text-align: center;
+	vertical-align: center;
+}
+
+table.section td.text {
+	padding-left: 24px;
+	padding-right: 16px;
+	vertical-align: top;
+}
+
+table.section td.side {
+	width: 150px;
+	padding-left: 16px;
+	border-left: 1px solid #BEBEBE;
+	font-size: 13px;
+	vertical-align: top;
+}
+
+#main p span {
+	font-size: 20px;
+	font-weight: 500;
+	color: orange;
+}
+
+#footer {
+	padding-bottom:20px;
+	border-top:1px solid #ddd;
+	color:gray;
+}
