@@ -63,5 +63,8 @@ a:visited {
 
 ul.menu {
 	list-style: none;
-	display: inline;
+}
+
+ul.menu li {
+	float: left;
 }
