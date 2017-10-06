@@ -61,10 +61,38 @@ a:visited {
 	line-height: 300%;
 }
 
-ul.menu {
+.menu ul{
 	list-style: none;
 }
 
-ul.menu li {
+.menu li {
 	float: left;
+	width:100px;
+	background:#CCC;
+	margin-left:3px;
+	line-height:30px;
+}
+
+.menu a {
+	display: block;
+	text-align:center;
+	height:30px;
+}
+
+.menu a:link {
+	color:#666;
+	background:#CCC;
+	text-decoration:none;
+}
+
+.menu a:visited {
+	color:#666;
+	text-decoration:underline;
+}
+
+.menu a:hover {
+	color:#FFF; 
+	font-weight:bold;
+	text-decoration:underline;
+	background:#F00;
 }
