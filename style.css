@@ -51,6 +51,7 @@ body {
 #entries #life p, 
 #entries #work p {
 	line-height: 300%;
+	color: #666;
 }
 
 .menu ul{
@@ -72,14 +73,15 @@ body {
 }
 
 .menu a:link {
+	color:#000;
 	text-decoration:none;
 }
 
 .menu a:visited {
-	text-decoration:underline;
+	color:#000;
 }
 
 .menu a:hover {
+	color:#000;
 	font-weight:bold;
-	text-decoration:underline;
 }
