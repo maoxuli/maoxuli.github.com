@@ -59,7 +59,9 @@ body {
 
 #entries .section p {
 	line-height: 200%;
+	font-family: 'Comic Sans MS', cursive, sans-serif;	
 	color: #666;
+	font-size: 14px;
 }
 
 .menu ul{
