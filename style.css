@@ -55,12 +55,14 @@ body {
 }
 
 .menu ul{
-	list-style: none;
+	display: inline-block;
+	margin:0;
+	padding:0; 
 }
 
 .menu li {
 	float: left;
-	width:90px;
+	width:100px;
 	margin-left:5px;
 	line-height:30px;
 	border:1px dotted #ccc;
@@ -73,15 +75,15 @@ body {
 }
 
 .menu a:link {
-	color:#000;
+	color:darkblue;
 	text-decoration:none;
 }
 
 .menu a:visited {
-	color:#000;
+	color:darkblue;
 }
 
 .menu a:hover {
-	color:#000;
+	color:blue;
 	font-weight:bold;
 }
