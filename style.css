@@ -55,3 +55,13 @@ a:visited {
 	height: 38%;
 	background-color: #FFF9BF;
 }
+
+#entries #life p, 
+#entries #work p {
+	line-height: 300%;
+}
+
+ul.menu {
+	list-style: none;
+	display: inline;
+}
