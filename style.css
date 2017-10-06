@@ -27,8 +27,19 @@ body {
 	vertical-align: center;
 }
 
-#entries #name {
+#entries .name {
 	height: 24%;
+}
+
+#entries .section {
+	height: 35%;
+}
+
+#entries .jump {
+	height: 6%;
+}
+
+#entries #name {
 	background-color: #B1D3EC;
 }
 
@@ -39,17 +50,14 @@ body {
 }
 
 #entries #life {
-	height: 38%;
 	background-color: #CCFFBF;
 }
 
 #entries #work {
-	height: 38%;
 	background-color: #FFF9BF;
 }
 
-#entries #life p, 
-#entries #work p {
+#entries .section p {
 	line-height: 200%;
 	color: #666;
 }
@@ -87,4 +95,17 @@ body {
 .menu a:hover {
 	color:blue;
 	font-weight:bold;
+}
+
+#entries #jump {
+	font-size: 12px;
+	color: #666;
+}
+
+#jump a:link,
+#jump a:hover,
+#jump a:active,
+#jump a:visited {
+	color: black;
+	text-decoration: none;
 }
