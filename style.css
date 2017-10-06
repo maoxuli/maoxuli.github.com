@@ -61,7 +61,7 @@ body {
 .menu li {
 	float: left;
 	width:90px;
-	margin-left:10px;
+	margin-left:5px;
 	line-height:30px;
 	border:1px dotted #ccc;
 }
