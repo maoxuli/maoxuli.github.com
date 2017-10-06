@@ -55,9 +55,3 @@ a:visited {
 	height: 38%;
 	background-color: #FFF9BF;
 }
-
-#entries #life p, 
-#entries #work p {
-	font-style: italic;
-	line-height: 300%;
-}
