@@ -4,7 +4,7 @@ body {
 	background: #fff;
 	text-align: center; /* Necessary for IE 6,7,8 */
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 0;
+	font-size: 14px;
 }
 
 a:link,
