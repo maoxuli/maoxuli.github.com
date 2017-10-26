@@ -4,7 +4,15 @@ body {
 	background: #fff;
 	text-align: center; /* Necessary for IE 6,7,8 */
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 16px;
+	font-size: 0;
+}
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+	color: #666;
+	text-decoration: none;
 }
 
 #container {
@@ -12,102 +20,48 @@ body {
 	margin: 0 auto;
 }
 
-#drawing,
-#entries,
-#poem {
+.panel {
 	width: 300px;
 	height: 383px;
-	float: left;
+	display: inline-block;
+	vertical-align: middle;
 }
 
-#entries {
+table {
 	border-spacing: 0;
 	border-collapse: collapse;
 	text-align: center;
 	vertical-align: center;
 }
 
-#entries .name {
+#name {
 	height: 24%;
-}
-
-#entries .section {
-	height: 35%;
-}
-
-#entries .jump {
-	height: 6%;
-}
-
-#entries #name {
 	background-color: #B1D3EC;
 }
 
-#entries #name h1 {
-	margin: 0;
-	font-family: 'Molle', cursive;
-	font-size: 26px;
-}
-
-#entries #life {
+#life {
+	height: 35%;
 	background-color: #CCFFBF;
 }
 
-#entries #work {
+#work {
+	height: 35%;
 	background-color: #FFF9BF;
 }
 
-#entries .section p {
-	line-height: 200%;
-	font-family: 'Comic Sans MS', cursive, sans-serif;	
-	color: #666;
-	font-size: 14px;
-}
-
-.menu ul{
-	list-style: none;
-	display: inline-block;
-	margin:0;
-	padding:0; 
-}
-
-.menu li {
-	float: left;
-	width:100px;
-	margin-left:5px;
-	line-height:30px;
-	border:1px dotted #ccc;
-}
-
-.menu a {
-	display: block;
-	text-align:center;
-	height:30px;
-}
-
-.menu a:link {
-	color:darkblue;
-	text-decoration:none;
-}
-
-.menu a:visited {
-	color:darkblue;
-}
-
-.menu a:hover {
-	color:blue;
-	font-weight:bold;
-}
-
-#entries #jump {
+#jump {
+	height: 6%;
 	font-size: 12px;
-	color: #666;
 }
 
-#jump a:link,
-#jump a:hover,
-#jump a:active,
-#jump a:visited {
-	color: black;
-	text-decoration: none;
+#name h1 {
+	margin: 0;
+	font-family: 'Molle', cursive;
+	font-size: 30px;
+}
+
+#life p, #work p {
+	line-height: 150%;
+	font-size: 14px;
+	font-family: 'Comic Sans MS', cursive, sans-serif;	
 }
