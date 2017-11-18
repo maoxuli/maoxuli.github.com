@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Molle:400i');
 
 body {
 	margin: 0;
@@ -55,7 +56,8 @@ table {
 
 #name h1 {
 	margin: 0;
-	font-family: 'Molle', cursive;
+	font-family: 'Molle', cursive; 
+	font-weight: 400;
 	font-size: 30px;
 }
 
