@@ -40,18 +40,13 @@ table {
 }
 
 #life {
-	height: 35%;
+	height: 38%;
 	background-color: #CCFFBF;
 }
 
 #work {
-	height: 35%;
+	height: 38%;
 	background-color: #FFF9BF;
-}
-
-#jump {
-	height: 6%;
-	font-size: 12px;
 }
 
 #name h1 {
